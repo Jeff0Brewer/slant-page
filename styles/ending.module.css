@@ -1,0 +1,77 @@
+.ending {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.ending > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    position: relative;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.menu > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu h1 {
+    margin: 10px 0 ;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.menu a {
+    margin: 5px 0;
+    color: #ccc;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    justify-content: right;
+}
+
+.socials a {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.footer > div {
+    width: 65%;
+    display: flex;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-transform: capitalize;
+}
