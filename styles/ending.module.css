@@ -74,4 +74,9 @@
 .footer a {
     margin: 0 10px;
     text-transform: capitalize;
+    cursor: pointer;
+}
+
+.menu a:hover, .socials a:hover, .footer a:hover {
+    opacity: .85;
 }
